@@ -1,8 +1,8 @@
 class AwsAuthenticator < Formula
   desc "AWS Authenticator interface"
   homepage "https://github.com/pabloviquez/aws-authenticator"
-  url "https://github.com/pabloviquez/aws-authenticator/archive/v1.0.3.tar.gz"
-  sha256 "ef79f6bdceb00323140cd5bb5938c5102752c5b186ef376ea3b8a750915d5923"
+  url "https://github.com/pabloviquez/aws-authenticator/archive/v1.0.4.tar.gz"
+  sha256 "e326a773ee671c741eeca3cb5d4072dbf7fd801900ae268f506b7bd99bf53c61"
   desc "Interface to authenticate the CLI using AWS with Multi-Factor-Authentication (MFA)"
   depends_on "awscli"
   depends_on "jq"
